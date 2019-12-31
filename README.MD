@@ -25,3 +25,14 @@ pip freeze > requirements.txt
 python manage.py startapp main
 ```
 
+#### Commit 2
+> Załóżmy, że istnieje formularz, który przyjmuje Nazwę użytkownika, płeć i tekst jako dane wejściowe od użytkownika, zadaniem jest sprawdzenie danych i zapisanie ich.
+> Najpierw tworzę dane.
+
+- robię models.py
+- dodaję aplikację do settings.py
+- migruję
+```
+py manage.py makemigrations
+py manage.py migrate
+```
