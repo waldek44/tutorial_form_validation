@@ -17,3 +17,11 @@ py manage.py createsuperuser
 
 pip freeze > requirements.txt
 ```
+
+#### Commit 1 Tworzę aplikację
+
+- Tworzę aplikację
+```
+python manage.py startapp main
+```
+
