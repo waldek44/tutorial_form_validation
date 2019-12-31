@@ -25,7 +25,7 @@ pip freeze > requirements.txt
 python manage.py startapp main
 ```
 
-#### Commit 2
+#### Commit 2 Model danych
 > Załóżmy, że istnieje formularz, który przyjmuje Nazwę użytkownika, płeć i tekst jako dane wejściowe od użytkownika, zadaniem jest sprawdzenie danych i zapisanie ich.
 > Najpierw tworzę dane.
 
@@ -36,3 +36,15 @@ python manage.py startapp main
 py manage.py makemigrations
 py manage.py migrate
 ```
+
+#### Commit 3 Formularz
+> Teraz można utworzyć formularz. Załóżmy, że długość nazwy użytkownika nie powinna być mniejsza niż 5, 
+> a długość postu powinna być większa niż 10. Następnie definiujemy Class PostForm z wymaganymi regułami 
+> sprawdzania poprawności.
+
+```
+pip install django-bootstrap4
+```
+- tworzę forms.py
+- tworzę urls.py
+- wypełniam views.py
